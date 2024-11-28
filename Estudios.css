@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-image: url(IMAGENES/cuerpo.jpg);
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image:url(IMAGENES/rojo.jpg)
+}
+
+nav {
+  display: flex;
+  justify-content:space-around;   
+  padding: 10px 0;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: 2px solid black;
+  list-style: none;
+  display: flex;
+  justify-content: center;    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(80, 206, 7);
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(236, 236, 236);
+
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+.tabla-estudios {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .tabla-estudios thead tr {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .tabla-estudios th, .tabla-estudios td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: blue;
+  }
+  
+  .tabla-estudios tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla-estudios tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tabla-estudios td {
+    font-weight: 400;
+  }
+  
+  .tabla-estudios th {
+    font-weight: bold;
+  }
+
+  footer {
+    text-align: center;
+    color: whitesmoke;
+    height: 100px;
+    background-color: rgb(127, 122, 122);
+    
+}
+
+  footer p{
+    text-align: center;
+
+}

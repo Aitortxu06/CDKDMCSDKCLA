@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-image: url(IMAGENES/cuerpo.jpg);
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    background-image:url(IMAGENES/rojo.jpg)
+}
+
+
+h2{
+    color: yellow;
+    background-color: blue;
+    border: 5px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section h2{
+    margin: 20px;
+    color: yellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+section p{
+    margin: 5;
+    justify-content: right;
+}
+
+.sobre_mi {
+    text-align: justify;
+    height: 100px;
+    width: 800px;
+    color: white;
+    font-size: 23px;
+
+}
+
+.habilidades {
+    text-align: justify;
+    height: 130px;
+    margin-left: 20px;
+    width: 800px;
+    color: white;
+    font-size: 23px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction:row;
+    background-image:url(IMAGENES/cuerpo.jpg)
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;   
+    padding: 10px 0;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: 2px solid black;
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+}
+
+nav a:hover {
+    text-decoration: underline;   
+    background-color: rgb(236, 236, 236);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(80, 206, 7);
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.info-personal{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.GoogleMaps{
+    margin: 0 auto;
+    display: block; 
+    border: 3px solid #019cba;
+    width: 90%; 
+    height: 700px;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+    flex-direction: column;
+    
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+.info-personal #curriculum {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    height: 100px;
+    background-color: rgb(127, 122, 122);
+    
+}
+
+footer p{
+    text-align: center;
+
+}
+
+.RedesSociales a{
+    background-color: violet;
+}
